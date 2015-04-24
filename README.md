@@ -8,12 +8,14 @@ Program should be easy to use and should offer a variety of information to help 
 # How to Run
 Select a Menu option
 # Dependencies
-JSON 
-
+rapidjson
+curl
+ - sudo apt-get install libcurl4-openssl-dev
 RIOT API key
   create a username and password at(if you don't already have a username for league of legends)
-  -http://na.leagueoflegends.com/
-  use the username and password to log into https://developer.riotgames.com/
+  - http://na.leagueoflegends.com/
+  use the username and password to log into 
+  - https://developer.riotgames.com/
   a key will be granted for use that should not be shared and is confidential
   
 # System Requirements
