@@ -6,6 +6,13 @@ Program should be easy to use and should offer a variety of information to help 
 Select a Menu option
 # Dependencies
 JSON 
+
+RIOT API key
+  create a username and password at(if you don't already have a username for league of legends)
+  -http://na.leagueoflegends.com/
+  use the username and password to log into https://developer.riotgames.com/
+  a key will be granted for use that should not be shared and is confidential
+  
 # System Requirements
 c++ compiler
 Recommended CodeBlocks or Geany
