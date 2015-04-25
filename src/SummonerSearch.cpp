@@ -6,13 +6,14 @@
 #include <iterator>
 #include <RiotCPP/Riot.hpp>
 #include <RiotCPP/RiotPrinter.hpp>
+#include <SummonerBST.h>
 using namespace std;
 
 
 int main()
 {
     Riot::api_key = "66f5d13c-a7d0-4a29-811c-b51794d9872f";
-
+    SummonerBST *tree = new SummonerBST();
     bool quit = false;
     while(!quit)
     {
@@ -30,6 +31,12 @@ int main()
             getline(cin, summonerName);
             Riot::Summoner searchedSummoner = Riot::getSummoner(summonerName);
             Riot::RiotPrinter::printSummoner(searchedSummoner);
+            break;
+        }
+        case 2://test
+        {
+            tree->SummonerBST::addSummonerNode("wide", 19507614, 30);
+            break;
         }
         break;
         default:
