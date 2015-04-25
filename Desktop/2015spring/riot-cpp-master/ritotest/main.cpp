@@ -7,7 +7,7 @@
 
 int main(int argc, char** argv)
 {
-	Riot::api_key = "ace6cf13-69e3-426a-a988-97e59af00f2d";
+	Riot::api_key = "<your key>";
 	Riot::region = Riot::Region::NA;
 	Riot::locale = Riot::Locale::en_US;
     Riot::ChampionList championList = Riot::getChampionList(true);
