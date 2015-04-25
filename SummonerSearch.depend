@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1429846494 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotAPI.cpp
+	"RiotAPI.h"
+
+1429846488 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotAPI.h
+	<map>
+	<vector>
+	<string>
+
+1429846618 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<sstream>
+	<iterator>
+	"RiotAPI.h"
+
