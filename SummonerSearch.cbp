@@ -14,7 +14,11 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="src" />
 				</Compiler>
+				<Linker>
+					<Add library="curl" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/SummonerSearch" prefix_auto="1" extension_auto="1" />
@@ -31,10 +35,116 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++11" />
 			<Add option="-Wall" />
+			<Add directory="lib" />
 		</Compiler>
+		<Unit filename="include/RiotCPP/DTO/AggregatedStats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/BasicData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/BasicDataStats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Block.hpp" />
+		<Unit filename="include/RiotCPP/DTO/BlockItem.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Champion.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ChampionData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ChampionDataList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ChampionList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ChampionSpell.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ChampionStats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Game.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Gold.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Group.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Image.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Info.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Item.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ItemList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/ItemTree.hpp" />
+		<Unit filename="include/RiotCPP/DTO/League.hpp" />
+		<Unit filename="include/RiotCPP/DTO/LeagueItem.hpp" />
+		<Unit filename="include/RiotCPP/DTO/LevelTip.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Mastery.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryPage.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryPages.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryTree.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryTreeItem.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MasteryTreeList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MatchHistorySummary.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MessageOfDay.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MetaData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/MiniSeries.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/ChampData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/ItemData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/ItemListData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/Locale.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/MasteryData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/MasteryListData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/QueueType.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/Region.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/RuneData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/RuneListData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/Season.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Param/SpellData.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Passive.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Player.hpp" />
+		<Unit filename="include/RiotCPP/DTO/PlayerStatsSummary.hpp" />
+		<Unit filename="include/RiotCPP/DTO/PlayerStatsSummaryList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RankedStats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RawStats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Realm.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RecentGames.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Recommended.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Roster.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Rune.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RuneList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RunePage.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RunePages.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RuneSlot.hpp" />
+		<Unit filename="include/RiotCPP/DTO/RuneSlotted.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Skin.hpp" />
+		<Unit filename="include/RiotCPP/DTO/SpellVars.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Stats.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Summoner.hpp" />
+		<Unit filename="include/RiotCPP/DTO/SummonerSpell.hpp" />
+		<Unit filename="include/RiotCPP/DTO/SummonerSpellList.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Talent.hpp" />
+		<Unit filename="include/RiotCPP/DTO/Team.hpp" />
+		<Unit filename="include/RiotCPP/DTO/TeamMemberInfo.hpp" />
+		<Unit filename="include/RiotCPP/DTO/TeamStatDetail.hpp" />
+		<Unit filename="include/RiotCPP/DTO/TeamStatSummary.hpp" />
+		<Unit filename="include/RiotCPP/JSONPrinter.hpp" />
+		<Unit filename="include/RiotCPP/Parser/RiotParser.hpp" />
+		<Unit filename="include/RiotCPP/Parser/URLReader.hpp" />
+		<Unit filename="include/RiotCPP/Riot.hpp" />
+		<Unit filename="include/RiotCPP/RiotPrinter.hpp" />
 		<Unit filename="include/Test.h" />
+		<Unit filename="lib/rapidjson/document.h" />
+		<Unit filename="lib/rapidjson/filestream.h" />
+		<Unit filename="lib/rapidjson/internal/pow10.h" />
+		<Unit filename="lib/rapidjson/internal/stack.h" />
+		<Unit filename="lib/rapidjson/internal/strfunc.h" />
+		<Unit filename="lib/rapidjson/prettywriter.h" />
+		<Unit filename="lib/rapidjson/rapidjson.h" />
+		<Unit filename="lib/rapidjson/reader.h" />
+		<Unit filename="lib/rapidjson/stringbuffer.h" />
+		<Unit filename="lib/rapidjson/writer.h" />
+		<Unit filename="src/DTO/Param/ChampData.cpp" />
+		<Unit filename="src/DTO/Param/ItemData.cpp" />
+		<Unit filename="src/DTO/Param/ItemListData.cpp" />
+		<Unit filename="src/DTO/Param/Locale.cpp" />
+		<Unit filename="src/DTO/Param/MasteryData.cpp" />
+		<Unit filename="src/DTO/Param/MasteryListData.cpp" />
+		<Unit filename="src/DTO/Param/QueueType.cpp" />
+		<Unit filename="src/DTO/Param/Region.cpp" />
+		<Unit filename="src/DTO/Param/RuneData.cpp" />
+		<Unit filename="src/DTO/Param/RuneListData.cpp" />
+		<Unit filename="src/DTO/Param/Season.cpp" />
+		<Unit filename="src/DTO/Param/SpellData.cpp" />
+		<Unit filename="src/Riot.cpp" />
+		<Unit filename="src/RiotParser.cpp" />
+		<Unit filename="src/RiotPrinter.cpp" />
+		<Unit filename="src/SummonerSearch.cpp" />
 		<Unit filename="src/Test.cpp" />
+		<Unit filename="src/URLReader.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

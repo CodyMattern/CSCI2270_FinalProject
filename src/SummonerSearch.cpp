@@ -4,12 +4,15 @@
 #include <cstdlib>
 #include <sstream>
 #include <iterator>
-#include "RiotAPI.h"
+#include <RiotCPP/Riot.hpp>
+#include <RiotCPP/RiotPrinter.hpp>
 using namespace std;
 
 
 int main()
 {
+    Riot::api_key = "66f5d13c-a7d0-4a29-811c-b51794d9872f";
+
     bool quit = false;
     while(!quit)
     {
@@ -25,12 +28,14 @@ int main()
             cout << "Enter Summoner Name:" << endl;
             cin.ignore();
             getline(cin, summonerName);
+            Riot::Summoner searchedSummoner = Riot::getSummoner(summonerName);
+            Riot::RiotPrinter::printSummoner(searchedSummoner);
         }
         break;
         default:
             cout << "Sorry, that was not a valid input!" << endl;
             break;
         }
-        return 0;
     }
+    return 0;
 }
