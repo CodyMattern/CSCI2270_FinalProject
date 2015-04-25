@@ -8,6 +8,8 @@ Program should be easy to use and should offer a variety of information to help 
 # How to Run
 Select a Menu option
 # Dependencies
+GGTucker Riot API - https://github.com/ggtucker/riot-cpp. Already included in repo.
+
 rapidjson
 curl
  - sudo apt-get install libcurl4-openssl-dev
