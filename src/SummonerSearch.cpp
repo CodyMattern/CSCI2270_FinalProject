@@ -26,22 +26,22 @@ int main()
         cout << endl;
         switch(menuResponse)
         {
-        case 1:
-        {
-            string summonerName;
-            int seasonNumber;
-            cout << "Enter Summoner Name:" << endl;
-            cin.ignore();
-            getline(cin, summonerName);
-            cout << endl;
-            transform(summonerName.begin(), summonerName.end(), summonerName.begin(), ::tolower);
-            Riot::Summoner summonerID = Riot::getSummoner(summonerName);
+            case 1:
+            {
+                string summonerName;
+                int seasonNumber;
+                cout << "Enter Summoner Name:" << endl;
+                cin.ignore();
+                getline(cin, summonerName);
+                cout << endl;
+                transform(summonerName.begin(), summonerName.end(), summonerName.begin(), ::tolower);
+                Riot::Summoner summonerID = Riot::getSummoner(summonerName);
 
-            cout << "Enter what season number(Only 3, 4 or 5 work currently):" << endl;
-            cin >> seasonNumber;
-            cout << endl;
+                cout << "Enter what season number(Only 3, 4 or 5 work currently):" << endl;
+                cin >> seasonNumber;
+                cout << endl;
 
-            Riot::Season season;
+                Riot::Season season;
             switch(seasonNumber)
             {
             case 3:

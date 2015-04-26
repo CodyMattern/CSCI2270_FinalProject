@@ -586,10 +586,10 @@
 1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneListData.hpp
 	<string>
 
-1429992195 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
+1430085814 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
 	<RiotCPP/DTO/Param/Season.hpp>
 
-1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
+1430085814 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
 	<string>
 
 1429992195 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/DTO/Param/SpellData.cpp
@@ -598,7 +598,7 @@
 1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/SpellData.hpp
 	<string>
 
-1430072103 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/Riot.cpp
+1430085814 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/Riot.cpp
 	<RiotCPP/Riot.hpp>
 
 1430071381 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
@@ -893,19 +893,21 @@
 1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatDetail.hpp
 	<string>
 
-1430073167 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+1430087013 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
 	<iostream>
 	<fstream>
 	<string>
 	<cstdlib>
 	<sstream>
+	<algorithm>
 	<iterator>
 	<RiotCPP/Riot.hpp>
 	<RiotCPP/RiotPrinter.hpp>
 	<SummonerBST.h>
 
-1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
+1430085814 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
 	<map>
+	<iostream>
 	<vector>
 	<string>
 	<rapidjson/document.h>
@@ -995,12 +997,39 @@
 1429992195 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/URLReader.cpp
 	<RiotCPP/Parser/URLReader.hpp>
 
-1430074701 /home/sinner/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+1430086447 /home/sinner/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
 	<string>
+	<iostream>
+	<iomanip>
+	<RiotCPP/DTO/Champion.hpp>
+	<RiotCPP/DTO/ChampionList.hpp>
+	<RiotCPP/DTO/ChampionData.hpp>
+	<RiotCPP/DTO/ChampionDataList.hpp>
+	<RiotCPP/DTO/RecentGames.hpp>
+	<RiotCPP/DTO/Game.hpp>
+	<RiotCPP/DTO/League.hpp>
+	<RiotCPP/DTO/LeagueItem.hpp>
+	<RiotCPP/DTO/Item.hpp>
+	<RiotCPP/DTO/ItemList.hpp>
+	<RiotCPP/DTO/Mastery.hpp>
+	<RiotCPP/DTO/MasteryList.hpp>
+	<RiotCPP/DTO/Realm.hpp>
+	<RiotCPP/DTO/Rune.hpp>
+	<RiotCPP/DTO/RuneList.hpp>
+	<RiotCPP/DTO/SummonerSpell.hpp>
+	<RiotCPP/DTO/SummonerSpellList.hpp>
+	<RiotCPP/DTO/PlayerStatsSummaryList.hpp>
+	<RiotCPP/DTO/RankedStats.hpp>
+	<RiotCPP/DTO/Summoner.hpp>
+	<RiotCPP/DTO/MasteryPages.hpp>
+	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Param/Season.hpp>
+	<RiotCPP/DTO/Team.hpp>
 
-1429995429 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
+1430086447 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
 	<string.h>
 	<stdio.h>
+	<iostream>
 	"SummonerBST.h"
 
 1430086070 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
