@@ -29,4 +29,11 @@ Nick Trierweiler
 # Contributors
 
 # Open issues/bugs
+
+
+# TODO
+Handle Response Errors
+View stats from all seasons
+
+
 >>>>>>> 4ba42fb419ca4c869f8eab7a254cb1887aa3a04c
