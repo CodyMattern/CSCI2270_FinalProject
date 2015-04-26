@@ -25,6 +25,7 @@
 #include <RiotCPP/DTO/Summoner.hpp>
 #include <RiotCPP/DTO/MasteryPages.hpp>
 #include <RiotCPP/DTO/RunePages.hpp>
+#include <RiotCPP/DTO/Param/Season.hpp>
 #include <RiotCPP/DTO/Team.hpp>
 namespace Riot
 {
@@ -66,7 +67,7 @@ public:
     void addChampionStats(const ChampionStats& data);
     bool ifPlayed(const AggregatedStats& data);
     void setSummonerStats(const ChampionStats& data);
-    void printSummonerStats();
+    void printSummonerStats(Riot::Season season);
     void buildChampList();
     std::string getChampName(int champID);
     void printBestChamp();

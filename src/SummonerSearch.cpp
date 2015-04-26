@@ -77,7 +77,7 @@ int main()
                 switch(menuResponse)
                 {
                 case 1:
-                    tree->printSummonerStats();
+                    tree->printSummonerStats(season);
                     break;
                 case 2:
                     tree->printSummonerBST();

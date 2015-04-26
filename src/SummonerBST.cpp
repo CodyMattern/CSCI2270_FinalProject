@@ -116,9 +116,9 @@ void SummonerBST::setSummonerStats(const ChampionStats& data)
     totalPenta = data.stats.totalPentaKills;
 }
 
-void SummonerBST::printSummonerStats()
+void SummonerBST::printSummonerStats(Season season)
 {
-    cout << "Overall Stats for Season 4:" <<endl;
+    cout << "Overall Stats for " << toString(season) << endl;
     cout << "Total Games Played: " << totalGames << endl;
     cout << "Wins: " << setprecision(2) << totalWins << endl;
     cout << "Losses: " << setprecision(2) <<  totalLosses << endl;
