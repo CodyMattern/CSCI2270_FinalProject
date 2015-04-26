@@ -1,4 +1,4 @@
-#include </home/user/Dropbox/riot-cpp-master/include/RiotCPP/Riot.hpp>
+#include <RiotCPP/Riot.hpp>
 
 namespace Riot
 {
@@ -118,8 +118,8 @@ namespace Riot
 
 	// ----------API Resource: lol-static-data-v1---------- //
 
-		/* Retrieves champion data by ID */
-		/*ChampionData getChampionData(long long championID, ChampData cdata)
+		 //Retrieves champion data by ID */
+		ChampionData getChampionData(long long championID, ChampData cdata)
 		{
 			std::string url
 				= BASE_STATIC_URL
@@ -150,7 +150,7 @@ namespace Riot
 			rapidjson::Document json;
 			json.Parse<0>(URLReader::read(url).c_str());
 			return RiotParser::parseChampionDataList(json);
-		}*/
+		}
 
 		/* Retrieves item data by ID */
 		Item getItem(long long itemID, ItemData idata)

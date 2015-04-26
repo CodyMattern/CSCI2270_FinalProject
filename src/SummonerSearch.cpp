@@ -35,7 +35,9 @@ int main()
         }
         case 2://test
         {
-            tree->SummonerBST::addSummonerNode("wide", 19507614, 30);
+            //tree->SummonerBST::addSummonerNode("wide", 19507614, 30);
+            Riot::ChampionData ryzeData = Riot::getChampionData(13);
+            Riot::RiotPrinter::printChampionData(ryzeData);
             break;
         }
         break;

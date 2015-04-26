@@ -1,13 +1,13 @@
-#include </home/user/Dropbox/riot-cpp-master/include/RiotCPP/DTO/Param/ChampData.hpp>
+#include <RiotCPP/DTO/Param/ChampData.hpp>
 
-/*namespace Riot
+namespace Riot
 {
-    ChampData t;
-	std::string toString(ChampData ChampData)
+    ChampData champData;
+	std::string toString(ChampData champData)
 	{
-		switch(ChampData)
+		switch(champData)
 		{
-		case t.ALL:
+		case ChampData::ALL:
 			return "all";
 		case ChampData::IMAGE:
 			return "image";
@@ -40,4 +40,4 @@
 		return "";
 	}
 }
-*/
+

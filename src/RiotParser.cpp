@@ -1,4 +1,4 @@
-#include </home/user/Dropbox/riot-cpp-master/include/RiotCPP/Parser/RiotParser.hpp>
+#include <RiotCPP/Parser/RiotParser.hpp>
 #include <iostream>
 namespace Riot
 {
