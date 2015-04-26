@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-
+#include <iostream>
 #include "SummonerBST.h"
 using namespace std;
 
@@ -42,4 +42,20 @@ void SummonerBST::addSummonerNode(std::string championName, int kills, int death
             y->right = z;
         }
     }
+}
+
+void SummonerBST::printSummonerBST()
+{
+    printSummonerBST(root);
+}
+void SummonerBST::printSummonerBST(SummonerNode *x)
+{
+    if(x->left != NULL){
+        printSummonerBST(x->left);
+        }
+        cout<<"Movie: "<<x->championName<<endl;
+
+    if(x->right != NULL)
+        printSummonerBST(x->right);
+
 }

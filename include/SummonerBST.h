@@ -34,6 +34,8 @@ class SummonerBST //: public MovieNode
         SummonerBST();
         virtual ~SummonerBST();
         void addSummonerNode(std::string, int, int, int, int, int, long int);
+        void printSummonerBST();
+        void printSummonerBST(SummonerNode *root);
     protected:
     private:
     SummonerNode *root;
