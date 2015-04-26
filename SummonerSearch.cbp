@@ -142,6 +142,7 @@
 		<Unit filename="src/Riot.cpp" />
 		<Unit filename="src/RiotParser.cpp" />
 		<Unit filename="src/RiotPrinter.cpp" />
+		<Unit filename="src/SummonerBST.cpp" />
 		<Unit filename="src/SummonerSearch.cpp" />
 		<Unit filename="src/Test.cpp" />
 		<Unit filename="src/URLReader.cpp" />
