@@ -7,12 +7,13 @@
 	<vector>
 	<string>
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+1430084965 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
 	<iostream>
 	<fstream>
 	<string>
 	<cstdlib>
 	<sstream>
+	<algorithm>
 	<iterator>
 	<RiotCPP/Riot.hpp>
 	<RiotCPP/RiotPrinter.hpp>
@@ -23,8 +24,8 @@
 
 1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/Test.h
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
-	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/DTO/Param/ChampData.hpp>
+1430074403 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
+	<RiotCPP/DTO/Param/ChampData.hpp>
 
 1429854803 /home/user/Dropbox/riot-cpp-master/include/RiotCPP/DTO/Param/ChampData.hpp
 	<string>
@@ -83,10 +84,10 @@
 1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneListData.hpp
 	<string>
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
+1430085152 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
 	<RiotCPP/DTO/Param/Season.hpp>
 
-1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
+1430080268 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
 	<string>
 
 1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/SpellData.cpp
@@ -95,8 +96,8 @@
 1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/SpellData.hpp
 	<string>
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Riot.cpp
-	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/Riot.hpp>
+1430085490 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Riot.cpp
+	<RiotCPP/Riot.hpp>
 
 1429854032 /home/user/Dropbox/riot-cpp-master/include/RiotCPP/Riot.hpp
 	<map>
@@ -440,8 +441,8 @@
 1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ChampData.hpp
 	<string>
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
-	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/Parser/RiotParser.hpp>
+1430071523 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
+	<RiotCPP/Parser/RiotParser.hpp>
 	<iostream>
 
 1429854505 /home/user/Dropbox/riot-cpp-master/include/RiotCPP/Parser/RiotParser.hpp
@@ -503,8 +504,9 @@
 	<RiotCPP/DTO/RunePages.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
+1430078209 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
 	<map>
+	<iostream>
 	<vector>
 	<string>
 	<rapidjson/document.h>
@@ -1001,11 +1003,37 @@
 	<stdio.h>
 	"SummonerBST.h"
 
-1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+1430084688 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
 	<string>
+	<iostream>
+	<iomanip>
+	<RiotCPP/DTO/Champion.hpp>
+	<RiotCPP/DTO/ChampionList.hpp>
+	<RiotCPP/DTO/ChampionData.hpp>
+	<RiotCPP/DTO/ChampionDataList.hpp>
+	<RiotCPP/DTO/RecentGames.hpp>
+	<RiotCPP/DTO/Game.hpp>
+	<RiotCPP/DTO/League.hpp>
+	<RiotCPP/DTO/LeagueItem.hpp>
+	<RiotCPP/DTO/Item.hpp>
+	<RiotCPP/DTO/ItemList.hpp>
+	<RiotCPP/DTO/Mastery.hpp>
+	<RiotCPP/DTO/MasteryList.hpp>
+	<RiotCPP/DTO/Realm.hpp>
+	<RiotCPP/DTO/Rune.hpp>
+	<RiotCPP/DTO/RuneList.hpp>
+	<RiotCPP/DTO/SummonerSpell.hpp>
+	<RiotCPP/DTO/SummonerSpellList.hpp>
+	<RiotCPP/DTO/PlayerStatsSummaryList.hpp>
+	<RiotCPP/DTO/RankedStats.hpp>
+	<RiotCPP/DTO/Summoner.hpp>
+	<RiotCPP/DTO/MasteryPages.hpp>
+	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Team.hpp>
 
-1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
+1430084748 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
 	<string.h>
 	<stdio.h>
+	<iostream>
 	"SummonerBST.h"
 

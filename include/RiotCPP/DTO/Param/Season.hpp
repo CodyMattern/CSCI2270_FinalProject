@@ -8,7 +8,8 @@ namespace Riot
 	enum class Season
 	{
 		SEASON3 = 0,
-		SEASON4
+		SEASON4,
+		SEASON5
 	};
 
 	std::string toString(Season season);

@@ -340,7 +340,7 @@ namespace Riot
 				+ "/ranked"
 				+ "?season=" + toString(season)
 				+ "&api_key=" + api_key;
-
+            //std::cout << url << std::endl;
 			rapidjson::Document json;
 			json.Parse<0>(URLReader::read(url).c_str());
 			return RiotParser::parseRankedStats(json);

@@ -10,6 +10,8 @@ namespace Riot
 			return "SEASON3";
 		case Season::SEASON4:
 			return "SEASON4";
+        case Season::SEASON5:
+            return "SEASON2015";
 		}
 		return "";
 	}

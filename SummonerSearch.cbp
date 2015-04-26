@@ -116,6 +116,7 @@
 		<Unit filename="include/RiotCPP/Parser/URLReader.hpp" />
 		<Unit filename="include/RiotCPP/Riot.hpp" />
 		<Unit filename="include/RiotCPP/RiotPrinter.hpp" />
+		<Unit filename="include/SummonerBST.h" />
 		<Unit filename="include/Test.h" />
 		<Unit filename="lib/rapidjson/document.h" />
 		<Unit filename="lib/rapidjson/filestream.h" />

@@ -2,6 +2,7 @@
 #define RIOT_HPP
 
 #include <map>
+#include <iostream>
 #include <vector>
 #include <string>
 #include <rapidjson/document.h>
