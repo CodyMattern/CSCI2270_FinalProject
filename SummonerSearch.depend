@@ -7,7 +7,7 @@
 	<vector>
 	<string>
 
-1429991536 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -16,85 +16,86 @@
 	<iterator>
 	<RiotCPP/Riot.hpp>
 	<RiotCPP/RiotPrinter.hpp>
+	<SummonerBST.h>
 
-1429846411 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Test.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Test.cpp
 	"Test.h"
 
-1429846411 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/Test.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/Test.h
 
-1429855357 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
 	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/DTO/Param/ChampData.hpp>
 
 1429854803 /home/user/Dropbox/riot-cpp-master/include/RiotCPP/DTO/Param/ChampData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemData.cpp
 	<RiotCPP/DTO/Param/ItemData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemListData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemListData.cpp
 	<RiotCPP/DTO/Param/ItemListData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemListData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemListData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Locale.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Locale.cpp
 	<RiotCPP/DTO/Param/Locale.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Locale.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Locale.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryData.cpp
 	<RiotCPP/DTO/Param/MasteryData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryListData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryListData.cpp
 	<RiotCPP/DTO/Param/MasteryListData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryListData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryListData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/QueueType.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/QueueType.cpp
 	<RiotCPP/DTO/Param/QueueType.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/QueueType.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/QueueType.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Region.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Region.cpp
 	<RiotCPP/DTO/Param/Region.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Region.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Region.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneData.cpp
 	<RiotCPP/DTO/Param/RuneData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneListData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneListData.cpp
 	<RiotCPP/DTO/Param/RuneListData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneListData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneListData.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
 	<RiotCPP/DTO/Param/Season.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
 	<string>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/SpellData.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/DTO/Param/SpellData.cpp
 	<RiotCPP/DTO/Param/SpellData.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/SpellData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/SpellData.hpp
 	<string>
 
-1429855952 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Riot.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/Riot.cpp
 	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/Riot.hpp>
 
 1429854032 /home/user/Dropbox/riot-cpp-master/include/RiotCPP/Riot.hpp
@@ -118,12 +119,12 @@
 	<RiotCPP/DTO/Param/Season.hpp>
 	<RiotCPP/DTO/Param/SpellData.hpp>
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/document.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/document.h
 	"reader.h"
 	"internal/strfunc.h"
 	<new>
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/reader.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/reader.h
 	"rapidjson.h"
 	"internal/pow10.h"
 	"internal/stack.h"
@@ -131,23 +132,23 @@
 	<nmmintrin.h>
 	<emmintrin.h>
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/rapidjson.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/rapidjson.h
 	<cstdlib>
 	<cstring>
 	<inttypes.h>
 	<cassert>
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/pow10.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/pow10.h
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/stack.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/stack.h
 
-1429853815 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/strfunc.h
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/strfunc.h
 
-1429843868 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/URLReader.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/URLReader.hpp
 	<curl/curl.h>
 	<string>
 
-1429854505 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/RiotParser.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/RiotParser.hpp
 	<map>
 	<vector>
 	<string>
@@ -177,14 +178,14 @@
 	<RiotCPP/DTO/RunePages.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Champion.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Champion.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionList.hpp
 	<vector>
 	"Champion.hpp"
 
-1429854623 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionData.hpp
 	<vector>
 	<string>
 	"Image.hpp"
@@ -195,79 +196,79 @@
 	"ChampionSpell.hpp"
 	"Stats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Image.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Image.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Info.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Info.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Passive.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Passive.hpp
 	<string>
 	"Image.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Recommended.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Recommended.hpp
 	<vector>
 	<string>
 	"Block.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Block.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Block.hpp
 	<vector>
 	<string>
 	"BlockItem.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BlockItem.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BlockItem.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Skin.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Skin.hpp
 	<string>
 
-1429854496 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionSpell.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionSpell.hpp
 	<string>
 	<vector>
 	"Image.hpp"
 	"LevelTip.hpp"
 	"SpellVars.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LevelTip.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LevelTip.hpp
 	<vector>
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SpellVars.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SpellVars.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Stats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Stats.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionDataList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionDataList.hpp
 	<map>
 	<string>
 	"ChampionData.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RecentGames.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RecentGames.hpp
 	<vector>
 	"Game.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Game.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Game.hpp
 	<vector>
 	<string>
 	"Player.hpp"
 	"RawStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Player.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Player.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RawStats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RawStats.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/League.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/League.hpp
 	<vector>
 	<string>
 	"LeagueItem.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LeagueItem.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LeagueItem.hpp
 	<string>
 	"MiniSeries.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MiniSeries.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MiniSeries.hpp
 	<vector>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Item.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Item.hpp
 	<map>
 	<vector>
 	<string>
@@ -276,14 +277,14 @@
 	"MetaData.hpp"
 	"BasicDataStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Gold.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Gold.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MetaData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MetaData.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicDataStats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicDataStats.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemList.hpp
 	<map>
 	<vector>
 	<string>
@@ -292,7 +293,7 @@
 	"Group.hpp"
 	"ItemTree.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicData.hpp
 	<map>
 	<vector>
 	<string>
@@ -301,40 +302,40 @@
 	"MetaData.hpp"
 	"BasicDataStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Group.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Group.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemTree.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemTree.hpp
 	<vector>
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Mastery.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Mastery.hpp
 	<vector>
 	<string>
 	"Image.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryList.hpp
 	<map>
 	<string>
 	"Mastery.hpp"
 	"MasteryTree.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTree.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTree.hpp
 	<vector>
 	"MasteryTreeList.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeList.hpp
 	<vector>
 	"MasteryTreeItem.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeItem.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeItem.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Realm.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Realm.hpp
 	<map>
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Rune.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Rune.hpp
 	<map>
 	<vector>
 	<string>
@@ -343,71 +344,71 @@
 	"MetaData.hpp"
 	"BasicDataStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneList.hpp
 	<map>
 	<string>
 	"BasicData.hpp"
 
-1429854500 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpell.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpell.hpp
 	<vector>
 	<string>
 	"Image.hpp"
 	"LevelTip.hpp"
 	"SpellVars.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpellList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpellList.hpp
 	<map>
 	<string>
 	"SummonerSpell.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummaryList.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummaryList.hpp
 	<vector>
 	"PlayerStatsSummary.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummary.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummary.hpp
 	"AggregatedStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/AggregatedStats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/AggregatedStats.hpp
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RankedStats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RankedStats.hpp
 	<vector>
 	"ChampionStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionStats.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionStats.hpp
 	<string>
 	"AggregatedStats.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Summoner.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Summoner.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPages.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPages.hpp
 	<vector>
 	"MasteryPage.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPage.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPage.hpp
 	<vector>
 	<string>
 	"Talent.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Talent.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Talent.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePages.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePages.hpp
 	<vector>
 	"RunePage.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePage.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePage.hpp
 	<vector>
 	<string>
 	"RuneSlot.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlot.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlot.hpp
 	"RuneSlotted.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlotted.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlotted.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Team.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Team.hpp
 	<vector>
 	<string>
 	"MatchHistorySummary.hpp"
@@ -415,31 +416,31 @@
 	"Roster.hpp"
 	"TeamStatSummary.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MatchHistorySummary.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MatchHistorySummary.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MessageOfDay.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MessageOfDay.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Roster.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Roster.hpp
 	<vector>
 	"TeamMemberInfo.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamMemberInfo.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamMemberInfo.hpp
 	<string>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatSummary.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatSummary.hpp
 	<vector>
 	<string>
 	"TeamStatDetail.hpp"
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatDetail.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatDetail.hpp
 	<string>
 
-1429854803 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ChampData.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ChampData.hpp
 	<string>
 
-1429844593 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
 	</home/user/Dropbox/riot-cpp-master/include/RiotCPP/Parser/RiotParser.hpp>
 	<iostream>
 
@@ -473,10 +474,10 @@
 	<RiotCPP/DTO/RunePages.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotPrinter.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/RiotPrinter.cpp
 	<RiotCPP/RiotPrinter.hpp>
 
-1429843867 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/RiotPrinter.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/RiotPrinter.hpp
 	<iostream>
 	<RiotCPP/DTO/Champion.hpp>
 	<RiotCPP/DTO/ChampionList.hpp>
@@ -502,7 +503,7 @@
 	<RiotCPP/DTO/RunePages.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1429854032 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
 	<map>
 	<vector>
 	<string>
@@ -523,7 +524,7 @@
 	<RiotCPP/DTO/Param/Season.hpp>
 	<RiotCPP/DTO/Param/SpellData.hpp>
 
-1429843868 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/URLReader.cpp
+1430069873 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/URLReader.cpp
 	<RiotCPP/Parser/URLReader.hpp>
 
 1429992195 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
@@ -999,4 +1000,7 @@
 	<string.h>
 	<stdio.h>
 	"SummonerBST.h"
+
+1430069873 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+	<string>
 
