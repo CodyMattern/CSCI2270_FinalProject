@@ -3,19 +3,28 @@
 #include <string>
 struct SummonerNode{
     //vari
-    std::string name;
-    long int summonerID;
-    int level;
+    std::string championName;
+    long int gold;
+    int kills, deaths, assists, games, cs;
+
+
+
     SummonerNode *parent;
     SummonerNode *left;
     SummonerNode *right;
 
     SummonerNode(){};
-    SummonerNode(std::string in_name, long int in_summonerID, int in_level) //cstr
+    SummonerNode(std::string in_championName, int in_kills, int in_deaths, int in_assists, int in_games, int in_cs, long int in_gold_earned) //cstr
     {
-        name = in_name;
-        summonerID = in_summonerID;
-        level = in_level;
+        championName = in_championName;
+        kills = in_kills;
+        deaths = in_deaths;
+        assists = in_assists;
+        games = in_games;
+        cs = in_cs;
+        gold = in_gold_earned;
+
+
     }
 };
 
@@ -24,7 +33,7 @@ class SummonerBST //: public MovieNode
     public:
         SummonerBST();
         virtual ~SummonerBST();
-        void addSummonerNode(std::string, long int, int);
+        void addSummonerNode(std::string, int, int, int, int, int, long int);
     protected:
     private:
     SummonerNode *root;

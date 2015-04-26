@@ -18,6 +18,7 @@ namespace Riot
 		const std::string SUMMONER_API_VERSION = "/v1.4/";
 		const std::string TEAM_API_VERSION = "/v2.4/";
 
+
 		/*rapidjson::Document parseJSON(std::string url)
 		{
 			rapidjson::Document json;

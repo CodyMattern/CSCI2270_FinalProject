@@ -2,7 +2,7 @@
 
 namespace Riot
 {
-    ChampData champData;
+    //ChampData champData;
 	std::string toString(ChampData champData)
 	{
 		switch(champData)

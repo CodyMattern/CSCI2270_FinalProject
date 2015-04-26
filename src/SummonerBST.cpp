@@ -7,11 +7,11 @@ using namespace std;
 SummonerBST::~SummonerBST(){}
 SummonerBST::SummonerBST(){}
 
-void SummonerBST::addSummonerNode(std::string name, long int summonerID, int level)
+void SummonerBST::addSummonerNode(std::string championName, int kills, int deaths, int assists, int games, int cs, long int gold_earned)
 {
     SummonerNode *y = new SummonerNode;
     SummonerNode *x = root;
-    SummonerNode *z = new SummonerNode(name, summonerID, level);
+    SummonerNode *z = new SummonerNode(championName, kills, deaths, assists, games, cs, gold_earned);
     if(root == NULL)//empty
     {
         root = z;
@@ -23,7 +23,7 @@ void SummonerBST::addSummonerNode(std::string name, long int summonerID, int lev
         while(x != NULL)
         {
             y = x;
-            if(z->level < x->level)
+            if(z->championName < x->championName)
             {
                 x = x->left;
             }
@@ -33,7 +33,7 @@ void SummonerBST::addSummonerNode(std::string name, long int summonerID, int lev
             }
         }
         z->parent = y;
-        if(z->level < y->level)
+        if(z->championName < y->championName)
         {
             y->left = z;
         }
