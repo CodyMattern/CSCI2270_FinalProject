@@ -66,7 +66,7 @@ int main()
             bool inMenu = true;
             while(inMenu)
             {
-                cout << "Summoner Name: " << summonerID.name << " Summoner ID: " << summonerID.id << " Summoner Level: " << summonerID.summonerLevel << " Season: " << Riot::toString(season) << endl;
+                cout << "Summoner Name: " << summonerID.name <<  " || " << "Summoner Level: " << summonerID.summonerLevel <<  " || " << "Season: " << Riot::toString(season) << endl;
                 cout << "1) Ranked Stats" << endl;
                 cout << "2) Ranked Stats by Champion" << endl;
                 cout << "3) Best Champion Stats" << endl;

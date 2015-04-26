@@ -7,7 +7,7 @@
 	<vector>
 	<string>
 
-1430085521 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+1430086015 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -1003,7 +1003,7 @@
 	<stdio.h>
 	"SummonerBST.h"
 
-1430084688 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+1430086070 /home/user/Desktop/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
 	<string>
 	<iostream>
 	<iomanip>
@@ -1029,9 +1029,10 @@
 	<RiotCPP/DTO/Summoner.hpp>
 	<RiotCPP/DTO/MasteryPages.hpp>
 	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Param/Season.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1430084748 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
+1430086028 source:/home/user/Desktop/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
 	<string.h>
 	<stdio.h>
 	<iostream>
