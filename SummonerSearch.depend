@@ -893,7 +893,7 @@
 1429992195 /home/sinner/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatDetail.hpp
 	<string>
 
-1430087013 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+1430089723 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -997,7 +997,7 @@
 1429992195 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/URLReader.cpp
 	<RiotCPP/Parser/URLReader.hpp>
 
-1430086447 /home/sinner/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+1430089582 /home/sinner/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
 	<string>
 	<iostream>
 	<iomanip>
@@ -1026,7 +1026,7 @@
 	<RiotCPP/DTO/Param/Season.hpp>
 	<RiotCPP/DTO/Team.hpp>
 
-1430086447 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
+1430089319 source:/home/sinner/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
 	<string.h>
 	<stdio.h>
 	<iostream>

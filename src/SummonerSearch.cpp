@@ -9,12 +9,14 @@
 #include <RiotCPP/RiotPrinter.hpp>
 #include <SummonerBST.h>
 using namespace std;
-
+//Work in progress - some updates added to original wrapper
+//Cody Mattern and Nick Trierweiler
+//CREDIT TO GGTucker for  Riot API Wrapper! - https://github.com/ggtucker/riot-cpp
 
 int main()
 {
-    Riot::api_key = "66f5d13c-a7d0-4a29-811c-b51794d9872f";
-    Riot::SummonerBST *tree = new Riot::SummonerBST();
+    Riot::api_key = "66f5d13c-a7d0-4a29-811c-b51794d9872f"; ///do not use, please acquire unique api key at https://developer.riotgames.com/
+    Riot::SummonerBST *tree = new Riot::SummonerBST(); //build tree for data storage
     bool quit = false;
     while(!quit)
     {
@@ -42,7 +44,7 @@ int main()
                 cout << endl;
 
                 Riot::Season season;
-            switch(seasonNumber)
+            switch(seasonNumber) //grabs string for season selection
             {
             case 3:
                 season = Riot::Season::SEASON3;
@@ -58,9 +60,7 @@ int main()
                 break;
             }
 
-
-            Riot::RankedStats searchedSummoner = Riot::getRankedStats(summonerID.id, season);
-
+            Riot::RankedStats searchedSummoner = Riot::getRankedStats(summonerID.id, season); //Grabs data from RIOT and adds to tree
 
             tree->getChampRankedStats(searchedSummoner);
             bool inMenu = true;
@@ -77,13 +77,13 @@ int main()
                 switch(menuResponse)
                 {
                 case 1:
-                    tree->printSummonerStats(season);
+                    tree->printSummonerStats(season); //display general data about summoner for selected season
                     break;
                 case 2:
-                    tree->printSummonerBST();
+                    tree->printSummonerBST(); //prints the whole tree aplhabetically for easy to find information on specific champions
                     break;
                 case 3:
-                    tree->printBestChamp();
+                    tree->printBestChamp(); //display champion with the highest Kill/Death/Assist average
                     break;
                 case 4:
                     inMenu = false;
@@ -92,8 +92,6 @@ int main()
                     break;
                 }
             }
-
-
             break;
         }
         case 2://test

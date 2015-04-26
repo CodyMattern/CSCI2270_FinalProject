@@ -58,20 +58,20 @@ struct SummonerNode
 class SummonerBST //: public MovieNode
 {
 public:
-    SummonerBST();
-    virtual ~SummonerBST();
+    SummonerBST(); //cstr
+    virtual ~SummonerBST(); //destructor
     void addSummonerNode(std::string, int, double, double, double, int, double);
-    void printSummonerBST();
-    void printSummonerBST(SummonerNode *root);
-    void getChampRankedStats(const RankedStats& data);
+    void printSummonerBST();//print tree A-Z
+    void getChampRankedStats(const RankedStats& data); //ranked stats
     void addChampionStats(const ChampionStats& data);
-    bool ifPlayed(const AggregatedStats& data);
+    bool ifPlayed(const AggregatedStats& data); //filter unplayed
     void setSummonerStats(const ChampionStats& data);
     void printSummonerStats(Riot::Season season);
-    void buildChampList();
+    void buildChampList(); //add to tree
     std::string getChampName(int champID);
-    void printBestChamp();
+    void printBestChamp(); //display champion with highest KDA
 protected:
+    void printSummonerBST(SummonerNode *root);
 private:
     int totalGames, totalWins, totalLosses, totalDouble, totalTriple, totalQuadra, totalPenta, maxKills, totalKills, totalDeaths, totalAssists, totalCS;
     SummonerNode *root;
