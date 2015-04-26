@@ -33,6 +33,7 @@ Nick Trierweiler
 
 # TODO
 Handle Response Errors
+
 View stats from all seasons
 
 
