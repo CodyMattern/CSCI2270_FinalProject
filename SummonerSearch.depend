@@ -1067,3 +1067,506 @@
 	<iostream>
 	"SummonerBST.h"
 
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/ChampData.cpp
+	<RiotCPP/DTO/Param/ChampData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ChampData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemData.cpp
+	<RiotCPP/DTO/Param/ItemData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/ItemListData.cpp
+	<RiotCPP/DTO/Param/ItemListData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/ItemListData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/Locale.cpp
+	<RiotCPP/DTO/Param/Locale.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Locale.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryData.cpp
+	<RiotCPP/DTO/Param/MasteryData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/MasteryListData.cpp
+	<RiotCPP/DTO/Param/MasteryListData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/MasteryListData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/QueueType.cpp
+	<RiotCPP/DTO/Param/QueueType.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/QueueType.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/Region.cpp
+	<RiotCPP/DTO/Param/Region.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Region.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneData.cpp
+	<RiotCPP/DTO/Param/RuneData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/RuneListData.cpp
+	<RiotCPP/DTO/Param/RuneListData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/RuneListData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/Season.cpp
+	<RiotCPP/DTO/Param/Season.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/Season.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/DTO/Param/SpellData.cpp
+	<RiotCPP/DTO/Param/SpellData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Param/SpellData.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/Riot.cpp
+	<RiotCPP/Riot.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/Riot.hpp
+	<map>
+	<iostream>
+	<vector>
+	<string>
+	<rapidjson/document.h>
+	<rapidjson/reader.h>
+	<RiotCPP/Parser/URLReader.hpp>
+	<RiotCPP/Parser/RiotParser.hpp>
+	<RiotCPP/DTO/Param/ChampData.hpp>
+	<RiotCPP/DTO/Param/ItemData.hpp>
+	<RiotCPP/DTO/Param/ItemListData.hpp>
+	<RiotCPP/DTO/Param/Locale.hpp>
+	<RiotCPP/DTO/Param/MasteryData.hpp>
+	<RiotCPP/DTO/Param/MasteryListData.hpp>
+	<RiotCPP/DTO/Param/QueueType.hpp>
+	<RiotCPP/DTO/Param/Region.hpp>
+	<RiotCPP/DTO/Param/RuneData.hpp>
+	<RiotCPP/DTO/Param/RuneListData.hpp>
+	<RiotCPP/DTO/Param/Season.hpp>
+	<RiotCPP/DTO/Param/SpellData.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/document.h
+	"reader.h"
+	"internal/strfunc.h"
+	<new>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/reader.h
+	"rapidjson.h"
+	"internal/pow10.h"
+	"internal/stack.h"
+	<csetjmp>
+	<nmmintrin.h>
+	<emmintrin.h>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/rapidjson.h
+	<cstdlib>
+	<cstring>
+	<inttypes.h>
+	<cassert>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/pow10.h
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/stack.h
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/lib/rapidjson/internal/strfunc.h
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/URLReader.hpp
+	<curl/curl.h>
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/Parser/RiotParser.hpp
+	<map>
+	<vector>
+	<string>
+	<rapidjson/reader.h>
+	<rapidjson/document.h>
+	<RiotCPP/DTO/Champion.hpp>
+	<RiotCPP/DTO/ChampionList.hpp>
+	<RiotCPP/DTO/ChampionData.hpp>
+	<RiotCPP/DTO/ChampionDataList.hpp>
+	<RiotCPP/DTO/RecentGames.hpp>
+	<RiotCPP/DTO/Game.hpp>
+	<RiotCPP/DTO/League.hpp>
+	<RiotCPP/DTO/LeagueItem.hpp>
+	<RiotCPP/DTO/Item.hpp>
+	<RiotCPP/DTO/ItemList.hpp>
+	<RiotCPP/DTO/Mastery.hpp>
+	<RiotCPP/DTO/MasteryList.hpp>
+	<RiotCPP/DTO/Realm.hpp>
+	<RiotCPP/DTO/Rune.hpp>
+	<RiotCPP/DTO/RuneList.hpp>
+	<RiotCPP/DTO/SummonerSpell.hpp>
+	<RiotCPP/DTO/SummonerSpellList.hpp>
+	<RiotCPP/DTO/PlayerStatsSummaryList.hpp>
+	<RiotCPP/DTO/RankedStats.hpp>
+	<RiotCPP/DTO/Summoner.hpp>
+	<RiotCPP/DTO/MasteryPages.hpp>
+	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Team.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Champion.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionList.hpp
+	<vector>
+	"Champion.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionData.hpp
+	<vector>
+	<string>
+	"Image.hpp"
+	"Info.hpp"
+	"Passive.hpp"
+	"Recommended.hpp"
+	"Skin.hpp"
+	"ChampionSpell.hpp"
+	"Stats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Image.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Info.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Passive.hpp
+	<string>
+	"Image.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Recommended.hpp
+	<vector>
+	<string>
+	"Block.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Block.hpp
+	<vector>
+	<string>
+	"BlockItem.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BlockItem.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Skin.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionSpell.hpp
+	<string>
+	<vector>
+	"Image.hpp"
+	"LevelTip.hpp"
+	"SpellVars.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LevelTip.hpp
+	<vector>
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SpellVars.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Stats.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionDataList.hpp
+	<map>
+	<string>
+	"ChampionData.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RecentGames.hpp
+	<vector>
+	"Game.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Game.hpp
+	<vector>
+	<string>
+	"Player.hpp"
+	"RawStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Player.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RawStats.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/League.hpp
+	<vector>
+	<string>
+	"LeagueItem.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/LeagueItem.hpp
+	<string>
+	"MiniSeries.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MiniSeries.hpp
+	<vector>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Item.hpp
+	<map>
+	<vector>
+	<string>
+	"Gold.hpp"
+	"Image.hpp"
+	"MetaData.hpp"
+	"BasicDataStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Gold.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MetaData.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicDataStats.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemList.hpp
+	<map>
+	<vector>
+	<string>
+	"BasicData.hpp"
+	"Item.hpp"
+	"Group.hpp"
+	"ItemTree.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/BasicData.hpp
+	<map>
+	<vector>
+	<string>
+	"Gold.hpp"
+	"Image.hpp"
+	"MetaData.hpp"
+	"BasicDataStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Group.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ItemTree.hpp
+	<vector>
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Mastery.hpp
+	<vector>
+	<string>
+	"Image.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryList.hpp
+	<map>
+	<string>
+	"Mastery.hpp"
+	"MasteryTree.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTree.hpp
+	<vector>
+	"MasteryTreeList.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeList.hpp
+	<vector>
+	"MasteryTreeItem.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryTreeItem.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Realm.hpp
+	<map>
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Rune.hpp
+	<map>
+	<vector>
+	<string>
+	"Gold.hpp"
+	"Image.hpp"
+	"MetaData.hpp"
+	"BasicDataStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneList.hpp
+	<map>
+	<string>
+	"BasicData.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpell.hpp
+	<vector>
+	<string>
+	"Image.hpp"
+	"LevelTip.hpp"
+	"SpellVars.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/SummonerSpellList.hpp
+	<map>
+	<string>
+	"SummonerSpell.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummaryList.hpp
+	<vector>
+	"PlayerStatsSummary.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/PlayerStatsSummary.hpp
+	"AggregatedStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/AggregatedStats.hpp
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RankedStats.hpp
+	<vector>
+	"ChampionStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/ChampionStats.hpp
+	<string>
+	"AggregatedStats.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Summoner.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPages.hpp
+	<vector>
+	"MasteryPage.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MasteryPage.hpp
+	<vector>
+	<string>
+	"Talent.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Talent.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePages.hpp
+	<vector>
+	"RunePage.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RunePage.hpp
+	<vector>
+	<string>
+	"RuneSlot.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlot.hpp
+	"RuneSlotted.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/RuneSlotted.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Team.hpp
+	<vector>
+	<string>
+	"MatchHistorySummary.hpp"
+	"MessageOfDay.hpp"
+	"Roster.hpp"
+	"TeamStatSummary.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MatchHistorySummary.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/MessageOfDay.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/Roster.hpp
+	<vector>
+	"TeamMemberInfo.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamMemberInfo.hpp
+	<string>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatSummary.hpp
+	<vector>
+	<string>
+	"TeamStatDetail.hpp"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/DTO/TeamStatDetail.hpp
+	<string>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/RiotParser.cpp
+	<RiotCPP/Parser/RiotParser.hpp>
+	<iostream>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/RiotPrinter.cpp
+	<RiotCPP/RiotPrinter.hpp>
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/RiotCPP/RiotPrinter.hpp
+	<iostream>
+	<RiotCPP/DTO/Champion.hpp>
+	<RiotCPP/DTO/ChampionList.hpp>
+	<RiotCPP/DTO/ChampionData.hpp>
+	<RiotCPP/DTO/ChampionDataList.hpp>
+	<RiotCPP/DTO/RecentGames.hpp>
+	<RiotCPP/DTO/Game.hpp>
+	<RiotCPP/DTO/League.hpp>
+	<RiotCPP/DTO/LeagueItem.hpp>
+	<RiotCPP/DTO/Item.hpp>
+	<RiotCPP/DTO/ItemList.hpp>
+	<RiotCPP/DTO/Mastery.hpp>
+	<RiotCPP/DTO/MasteryList.hpp>
+	<RiotCPP/DTO/Realm.hpp>
+	<RiotCPP/DTO/Rune.hpp>
+	<RiotCPP/DTO/RuneList.hpp>
+	<RiotCPP/DTO/SummonerSpell.hpp>
+	<RiotCPP/DTO/SummonerSpellList.hpp>
+	<RiotCPP/DTO/PlayerStatsSummaryList.hpp>
+	<RiotCPP/DTO/RankedStats.hpp>
+	<RiotCPP/DTO/Summoner.hpp>
+	<RiotCPP/DTO/MasteryPages.hpp>
+	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Team.hpp>
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/Test.cpp
+	"Test.h"
+
+1430441654 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/Test.h
+
+1430441654 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/URLReader.cpp
+	<RiotCPP/Parser/URLReader.hpp>
+
+1430442178 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/SummonerBST.cpp
+	<string.h>
+	<stdio.h>
+	<iostream>
+	"SummonerBST.h"
+
+1430442159 /home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/include/SummonerBST.h
+	<string>
+	<iostream>
+	<iomanip>
+	<RiotCPP/DTO/Champion.hpp>
+	<RiotCPP/DTO/ChampionList.hpp>
+	<RiotCPP/DTO/ChampionData.hpp>
+	<RiotCPP/DTO/ChampionDataList.hpp>
+	<RiotCPP/DTO/RecentGames.hpp>
+	<RiotCPP/DTO/Game.hpp>
+	<RiotCPP/DTO/League.hpp>
+	<RiotCPP/DTO/LeagueItem.hpp>
+	<RiotCPP/DTO/Item.hpp>
+	<RiotCPP/DTO/ItemList.hpp>
+	<RiotCPP/DTO/Mastery.hpp>
+	<RiotCPP/DTO/MasteryList.hpp>
+	<RiotCPP/DTO/Realm.hpp>
+	<RiotCPP/DTO/Rune.hpp>
+	<RiotCPP/DTO/RuneList.hpp>
+	<RiotCPP/DTO/SummonerSpell.hpp>
+	<RiotCPP/DTO/SummonerSpellList.hpp>
+	<RiotCPP/DTO/PlayerStatsSummaryList.hpp>
+	<RiotCPP/DTO/RankedStats.hpp>
+	<RiotCPP/DTO/Summoner.hpp>
+	<RiotCPP/DTO/MasteryPages.hpp>
+	<RiotCPP/DTO/RunePages.hpp>
+	<RiotCPP/DTO/Param/Season.hpp>
+	<RiotCPP/DTO/Team.hpp>
+
+1430442159 source:/home/user/Dropbox/DataStructures/FinalEval_1/Mattern_CSCI2270_FinalProject/src/SummonerSearch.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<sstream>
+	<algorithm>
+	<iterator>
+	<RiotCPP/Riot.hpp>
+	<RiotCPP/RiotPrinter.hpp>
+	<SummonerBST.h>
+
