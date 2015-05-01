@@ -36,64 +36,76 @@ int main()
                 cin.ignore();
                 getline(cin, summonerName);
                 cout << endl;
-                transform(summonerName.begin(), summonerName.end(), summonerName.begin(), ::tolower);
-                Riot::Summoner summonerID = Riot::getSummoner(summonerName);
 
-                cout << "Enter what season number(Only 3, 4 or 5 work currently):" << endl;
-                cin >> seasonNumber;
-                cout << endl;
+                bool summonerExists = tree->checkSummonerExists(summonerName);
 
-                Riot::Season season;
-            switch(seasonNumber) //grabs string for season selection
-            {
-            case 3:
-                season = Riot::Season::SEASON3;
-                break;
-            case 4:
-                season = Riot::Season::SEASON4;
-                break;
-            case 5:
-                season = Riot::Season::SEASON5;
-                break;
-            default:
-                season = Riot::Season::SEASON5;
-                break;
-            }
+                if (summonerExists) {
 
-            Riot::RankedStats searchedSummoner = Riot::getRankedStats(summonerID.id, season); //Grabs data from RIOT and adds to tree
+                    transform(summonerName.begin(), summonerName.end(), summonerName.begin(), ::tolower);
+                    Riot::Summoner summonerID = Riot::getSummoner(summonerName);
 
-            tree->getChampRankedStats(searchedSummoner);
-            bool inMenu = true;
-            while(inMenu)
-            {
-                cout << "Summoner Name: " << summonerID.name <<  " || " << "Summoner Level: " << summonerID.summonerLevel <<  " || " << "Season: " << Riot::toString(season) << endl;
-                cout << "1) Ranked Stats" << endl;
-                cout << "2) Ranked Stats by Champion" << endl;
-                cout << "3) Best Champion Stats" << endl;
-                cout << "4) Back to Main Menu" << endl;
-                int menuResponse;
-                cin >> menuResponse;
-                cout << endl;
-                switch(menuResponse)
-                {
-                case 1:
-                    tree->printSummonerStats(season); //display general data about summoner for selected season
+                    cout << "Enter what season number(Only 3, 4 or 5 work currently):" << endl;
+                    cin >> seasonNumber;
+                    cout << endl;
+
+                    Riot::Season season;
+                    switch(seasonNumber) //grabs string for season selection
+                    {
+                    case 3:
+                        season = Riot::Season::SEASON3;
+                        break;
+                    case 4:
+                        season = Riot::Season::SEASON4;
+                        break;
+                    case 5:
+                        season = Riot::Season::SEASON5;
+                        break;
+                    default:
+                        season = Riot::Season::SEASON5;
+                        break;
+                    }
+
+                    Riot::RankedStats searchedSummoner = Riot::getRankedStats(summonerID.id, season); //Grabs data from RIOT and adds to tree
+
+                    tree->getChampRankedStats(searchedSummoner);
+                    bool inMenu = true;
+                    while(inMenu)
+                    {
+                        cout << "Summoner Name: " << summonerID.name <<  " || " << "Summoner Level: " << summonerID.summonerLevel <<  " || " << "Season: " << Riot::toString(season) << endl;
+                        cout << "1) Ranked Stats" << endl;
+                        cout << "2) Ranked Stats by Champion" << endl;
+                        cout << "3) Best Champion Stats" << endl;
+                        cout << "4) Back to Main Menu" << endl;
+                        int menuResponse;
+                        cin >> menuResponse;
+                        cout << endl;
+                        switch(menuResponse)
+                        {
+                        case 1:
+                            tree->printSummonerStats(season); //display general data about summoner for selected season
+                            break;
+                        case 2:
+                            tree->printSummonerBST(); //prints the whole tree aplhabetically for easy to find information on specific champions
+                            break;
+                        case 3:
+                            tree->printBestChamp(); //display champion with the highest Kill/Death/Assist average
+                            break;
+                        case 4:
+                            inMenu = false;
+                            break;
+                        default:
+                            break;
+                        }
+                    }
                     break;
-                case 2:
-                    tree->printSummonerBST(); //prints the whole tree aplhabetically for easy to find information on specific champions
-                    break;
-                case 3:
-                    tree->printBestChamp(); //display champion with the highest Kill/Death/Assist average
-                    break;
-                case 4:
-                    inMenu = false;
-                    break;
-                default:
+
+                } else {
+
+                    cout << "Summoner does not exist" << endl;
+                    cout << endl;
                     break;
                 }
             }
-            break;
-        }
         case 2://test
         {
             quit = true;

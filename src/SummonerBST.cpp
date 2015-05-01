@@ -13,6 +13,19 @@ namespace Riot
         buildChampList(); //ChampionID Dictionary to display champion names
     }
 
+    bool SummonerBST::checkSummonerExists(string summonerName)
+    {
+        typedef std::map<int,std::string>::iterator it;
+
+        for (it iterator = champlist.begin(); iterator != champlist.end(); iterator++) {
+
+            if (iterator->second == summonerName)
+                return true;
+        }
+
+        return false;
+    }
+
     void SummonerBST::addSummonerNode(string championName, int championID, double kills, double deaths, double assists, int games, double KDA)
     {
         SummonerNode *y = new SummonerNode();

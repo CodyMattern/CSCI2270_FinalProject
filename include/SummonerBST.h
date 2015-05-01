@@ -70,6 +70,7 @@ public:
     void buildChampList(); //add to tree
     std::string getChampName(int champID);
     void printBestChamp(); //display champion with highest KDA
+    bool checkSummonerExists(std::string summonerName); // checks that user selected a valid summoner
 protected:
     void printSummonerBST(SummonerNode *root);
 private:
